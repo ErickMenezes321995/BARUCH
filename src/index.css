@@ -1,0 +1,22 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  margin-top: -24px;
+  padding: 0;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
