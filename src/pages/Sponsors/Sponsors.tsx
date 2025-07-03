@@ -3,24 +3,24 @@ import SectionContainer from "../../components/SectionContainer/SectionContainer
 
 export const sponsors = [
   {
-    name: "Avai",
-    imagePath: "assets/images/sponsors/logo-avai-256.png",
-    url: "https://avai.com.br/categoria/e-sports/",
+    name: "Hotel 1",
+    imagePath: "assets/images/sponsors/.png",
+     url: "#",
   },
   {
-    name: "volt",
-    imagePath: "assets/images/sponsors/logo_volt.png",
-    url: "https://www.voltsport.com.br/",
+    name: "Hotel 2",
+    imagePath: "assets/images/sponsors/.png",
+     url: "#",
   },
   {
-    name: "Woai",
-    imagePath: "assets/images/sponsors/WOA.png",
-    url: "https://www.woa.com.br/",
+    name: "Hotel 3",
+    imagePath: "assets/images/sponsors/.png",
+     url: "#",
   },
   {
-    name: "Player Games",
-    imagePath: "assets/images/sponsors/logomedico.png",
-    url: "https://www.help-sc.com.br/",
+    name: "Hotel 4",
+    imagePath: "assets/images/sponsors/.png",
+     url: "#",
   },
 ];
 
@@ -70,7 +70,7 @@ const Sponsors = () => {
                 mt={4}
                 width="100%"
                 size="sm"
-                colorScheme="blue"
+                colorScheme="yellow"
               >
                 Visitar o site
               </Button>

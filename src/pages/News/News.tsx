@@ -9,42 +9,39 @@ const News = () => {
       maxWidth={{ base: "100%", md: "50%" }}
     >
       <Image
-        src={`${process.env.PUBLIC_URL}/assets/images/banner_avai_esport.png`}
+        src={`${process.env.PUBLIC_URL}/assets/images/News.png`}
         height="auto"
         width="100%"
         objectFit="cover"
+        alt="Lançamento de Expedição"
       />
 
       <br />
 
       <Heading size="md" color="neutral.black">
-        Avaí E-Sports: O Avaí Futebol Clube dá um 
-        passo importante rumo ao futuro. 
+        BARUCH Viagens lança expedição inédita pela floresta amazônica
       </Heading>
 
       <br />
 
       <Text>
-        Avaí E-Sports: O Avaí Futebol Clube dá um 
-        passo importante rumo ao futuro ao ingressar 
-        no universo dos esportes eletrônicos em parceria 
-        com a Real Deal — uma organização consolidada no 
-        cenário desde 2017, com uma equipe técnica 
-        experiente e comprometida. Juntos, visam construir
-         uma trajetória de destaque e levar o nome do Leão 
-         da Ilha ao topo do E-Sports nacional.
+        A BARUCH Viagens acaba de lançar um novo pacote turístico que leva os
+        viajantes para uma imersão única na floresta amazônica. Com foco em
+        sustentabilidade e experiências autênticas, a nova expedição inclui
+        visitas a comunidades ribeirinhas, trilhas ecológicas, passeios de
+        canoa e vivências com guias locais. É uma oportunidade imperdível para
+        quem deseja se conectar com a natureza e a cultura amazônica de forma
+        profunda e transformadora.
       </Text>
 
       <br />
 
       <Link
-        href="https://avai.com.br/categoria/e-sports/"
+        href="https://baruchviagens.com.br/expedicoes"
         isExternal
         _hover={{ textDecoration: "none" }}
       >
-        <Button
-          width={{ base: "100%", sm: "fit-content", md: "fit-content" }}
-        >
+        <Button width={{ base: "100%", sm: "fit-content", md: "fit-content" }}>
           <Text>Continuar lendo</Text>
         </Button>
       </Link>

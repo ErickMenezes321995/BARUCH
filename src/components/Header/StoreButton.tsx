@@ -7,7 +7,7 @@ const StoreButton = () => {
       as={Link}
       leftIcon={<HiShoppingCart />}
       variant="outline"
-      href="#"
+      href="/Pacotes"
       isExternal
       _hover={{
         textDecoration: "none",

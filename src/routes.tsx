@@ -6,6 +6,7 @@ import ESports from "./pages/eSports/ESports";
 import Home from "./pages/Home/Home";
 import News from "./pages/News/News";
 import Sponsors from "./pages/Sponsors/Sponsors";
+import Pacotes from "./pages/pacotes";
 import Bracket from "./pages/Bracket";
 import LoginPage from "./pages/LoginPage";
 import CadastroTorcedor from "./pages/CadastroTorcedor";
@@ -21,11 +22,12 @@ export const AppRoutes = () => {
     <Route path="/" element={<Home />} />
     <Route path="sobre" element={<About />} />
     {/* <Route path="team" element={<Teams />} /> */}
-    {/* <Route path="noticias" element={<News />} /> */}
-    {/* <Route path="patrocinadores-parceiros" element={<Sponsors />} />
+    <Route path="noticias" element={<News />} />
+    <Route path="patrocinadores-parceiros" element={<Sponsors />} />
     <Route path="e-sports" element={<ESports />} />
     <Route path="contato" element={<ContactUs />} />
-    <Route path="Bracket" element={<Bracket />} />
+     <Route path="Pacotes" element={<Pacotes />} />
+    {/* <Route path="Bracket" element={<Bracket />} />
     <Route path="LoginPage" element={<LoginPage/>}/>
     <Route path="CadastroTorcedor" element={<CadastroTorcedor/>}/>
     <Route path="CadastroGamer" element={<CadastroGamer/>}/>

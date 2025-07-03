@@ -33,7 +33,7 @@ const ContactUs = () => {
   const handleSubmitForm = async (values: any, form: any) => {
     setLoading(true);
     try {
-      await axios.post("https://bairro-manaus.onrender.com/api/send", values);
+      //await axios.post("https://bairro-manaus.onrender.com/api/send", values);
       //await axios.post("http://localhost:4000/api/send", values);
       toast({
         title: "Mensagem enviada com sucesso!",
@@ -58,9 +58,8 @@ const ContactUs = () => {
       <Flex width={{ base: "100%", sm: "50%" }} flexDirection="column">
         <Box maxWidth={{ base: "100%", sm: "80%" }}>
           <Text>
-            Se você quer contribuir, patrocinar, fazer uma doação ou participar
-            desse projeto, preencha o formulário e entraremos em contato com
-            você.
+            Quer saber mais sobre nossos pacotes turísticos em Manaus, Parintins e região amazônica?
+            Preencha o formulário ou fale conosco diretamente.
           </Text>
           <Text margin="1em 0">
             Caso queira também você pode entrar em contato pelo nosso e-mail.
